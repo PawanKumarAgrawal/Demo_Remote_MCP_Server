@@ -4,7 +4,7 @@ from fastmcp import FastMCP
 # The default protocol is Streamable HTTP, accessible via the /mcp endpoint.
 
 mcp = FastMCP.as_proxy(
-    backend="https://Python-AI-Hindi-Academy.fastmcp.app/mcp",
+    backend="https://Demo-Server.fastmcp.app/mcp",
     name="Demo Remote Proxy Server"
 )
 
